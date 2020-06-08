@@ -4,8 +4,13 @@ import MapView from 'react-native-maps';
 import { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 
+interface State {
+  latitude: number;
+  longitude: number;
+}
+
 class Map extends React.Component {
-  state = {
+  state: State = {
     latitude: 37.52,
     longitude: 126.97,
   };
@@ -27,7 +32,7 @@ class Map extends React.Component {
     const { latitude, longitude } = this.state;
     return (
       <View style={{ width: '100%', height: '100%' }}>
-        <Text>map !!</Text>
+        <Text>map</Text>
         <MapView
           style={styles.map}
           showsUserLocation={false}
