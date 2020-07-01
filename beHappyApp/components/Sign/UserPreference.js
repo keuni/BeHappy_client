@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ScrollView, Text, TouchableOpacity, Button } from 'react-native';
+import { View, ScrollView, Text, TouchableOpacity } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import { Cities, States, SpecialtiesArray } from '../../Data/Preference';
 

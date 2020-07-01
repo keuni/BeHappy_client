@@ -5,8 +5,6 @@ import {
   View,
   ScrollView,
   ActivityIndicator,
-  Modal,
-  TouchableHighlight,
   TouchableOpacity,
 } from 'react-native';
 import { Button } from 'native-base';

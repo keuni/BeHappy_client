@@ -6,12 +6,6 @@ import { Specialties } from '../../../Data/Preference';
 import Entypo from 'react-native-vector-icons/Entypo';
 import getEnvVars from '../../../environment';
 const { ec2 } = getEnvVars();
-import { YellowBox } from 'react-native';
-import ModifyReviewModal from './ModifyReviewModal';
-
-YellowBox.ignoreWarnings([
-  'Non-serializable values were found in the navigation state',
-]);
 
 class ModifyReview extends React.Component {
   constructor(props) {
